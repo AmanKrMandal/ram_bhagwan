@@ -1010,7 +1010,7 @@ footer .DarkOrange {
   .banner_sec .inner_banner p {
     font-size: 16px;
   }
- 
+
   .BackYellow {
     top: -23%;
   }
@@ -1102,7 +1102,6 @@ footer .DarkOrange {
 }
 
 @media only screen and (max-width: 1050px) {
- 
 }
 @media only screen and (max-width: 991px) {
   .custom-flex-container {
@@ -1258,7 +1257,6 @@ footer .DarkOrange {
     display: none;
   }
   .contact .DarkPink {
-    top: -40%;
-    right: -77%;
+    display: none;
   }
 }
