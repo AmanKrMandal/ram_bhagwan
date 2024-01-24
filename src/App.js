@@ -18,12 +18,19 @@ import BackYellow from "./Image/BackYellow";
 import BackGreen from "./Image/BackGreen";
 import cross from "./Image/cross.png";
 import menu from "./Image/menu-icon.png";
-// import LightBlue from "./Image/LightBlue";
-// import Orange from "./Image/Orange";
-// import Lblue from "./Image/Lblue";
 import Mix from "./Image/Mix";
 import DarkPink from "./Image/DarkPink";
 import DarkOrange from "./Image/DarkOrange";
+import Footer from "./Footer";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+
+import lop01 from "./Image/lop01.png";
+import lop02 from "./Image/lop02.png";
+import lop03 from "./Image/lop03.png";
+import lop04 from "./Image/lop04.png";
+import lop05 from "./Image/lop05.png";
+import lop06 from "./Image/lop06.png";
 
 const App = () => {
   return (
@@ -147,6 +154,159 @@ const App = () => {
           </div>
         </div>
       </section>
+
+      {/* About us */}
+
+      <div class="about_container">
+        <div class="banner_section inner_banner">
+          {/* <img src="aboutBanner" /> */}
+          <div class="banner_content">
+            <h1>About US</h1>
+            <div class="breadcrumbs_section">
+              <ul>
+                <li>
+                  <a href="/">
+                    Todio.it
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="about_wrapper_area">
+          <div class="container">
+            <div class="about_content_area">
+              <div class="tab_content_box_wrap">
+                <div class="tab_content_box">
+                  <h2>
+                    <span>About Us</span>
+                  </h2>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage, and going through
+                    the cites of the word in classical literature, discovered
+                    the undoubtable source. Lorem Ipsum comes from sections
+                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                    Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                    book is a treatise on the theory of ethics, very popular
+                    during the Renaissance. The first line of Lorem Ipsum,
+                    "Lorem ipsum dolor sit amet..", comes from a line in section
+                    1.10.32.
+                  </p>
+                  <p>
+                    The standard chunk of Lorem Ipsum used since the 1500s is
+                    reproduced below for those interested. Sections 1.10.32 and
+                    1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                    also reproduced in their exact original form, accompanied by
+                    English versions from the 1914 translation by H. Rackham.
+                  </p>
+                  <h3>
+                    List your products on TODIO and effectively reach a high
+                    volume of customers
+                  </h3>
+                  <div class="list_of_product_section">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="list_of_product_box">
+                          <div class="list_of_product_box_img">
+                            <img src={lop01} />
+                          </div>
+                          <p>
+                            Simple and easy way to target people interested in
+                            buying Products
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="list_of_product_box">
+                          <div class="list_of_product_box_img">
+                            <img src={lop02} />
+                          </div>
+                          <p>10 million monthly users and 2300 clients</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="list_of_product_box">
+                          <div class="list_of_product_box_img">
+                            <img src={lop03} />
+                          </div>
+                          <p>
+                            Easy campaign management, at no additional costs
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="list_of_product_box">
+                          <div class="list_of_product_box_img">
+                            <img src={lop04} />
+                          </div>
+                          <p>Increase in traffic, sales and brand awareness</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="list_of_product_box">
+                          <div class="list_of_product_box_img">
+                            <img src={lop05} />
+                          </div>
+                          <p>
+                            Affordable, you only pay for customers who visit
+                            your site by the CPC model
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="list_of_product_box">
+                          <div class="list_of_product_box_img">
+                            <img src={lop06} />
+                          </div>
+                          <p>
+                            Precise loading and sorting of products from the XML
+                            feed
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <h4>
+                    <span>todio.it</span> story
+                  </h4>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage, and going through
+                    the cites of the word in classical literature, discovered
+                    the undoubtable source. Lorem Ipsum comes from sections
+                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                    Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                    book is a treatise on the theory of ethics, very popular
+                    during the Renaissance. The first line of Lorem Ipsum,
+                    "Lorem ipsum dolor sit amet..", comes from a line in section
+                    1.10.32.
+                  </p>
+                  <p>
+                    The standard chunk of Lorem Ipsum used since the 1500s is
+                    reproduced below for those interested. Sections 1.10.32 and
+                    1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                    also reproduced in their exact original form, accompanied by
+                    English versions from the 1914 translation by H. Rackham.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Offer Section */}
 
@@ -304,12 +464,11 @@ const App = () => {
       </section>
 
       {/* Footer */}
-
       <footer>
         <div className="DarkOrange">
           <DarkOrange />
         </div>
-        <div>Copyright © 2021 Micro Technologies All Right Reserved</div>
+        <Footer />
       </footer>
     </div>
   );
