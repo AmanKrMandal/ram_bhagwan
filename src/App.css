@@ -794,7 +794,11 @@ a {
   position: relative;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
+.BackBule {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .services::before {
   content: "";
   position: absolute;
@@ -803,12 +807,6 @@ a {
   width: 100%;
   height: 5px;
   background: linear-gradient(to bottom right, #7929ff, #fdbc58);
-}
-
-.services .BackBule {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .services .services_sec {
@@ -884,7 +882,7 @@ a {
 }
 .offer .offer_headind {
   color: #f0e5ff;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -941,13 +939,13 @@ a {
 }
 .contact .contact_div {
   color: #f0e5ff;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   display: flex;
   justify-content: center;
 }
 .contact .contact_sec {
-  margin-bottom: 488px;
+  margin-bottom: 48px;
 }
 .contact .labelStyle {
   color: #fff;
@@ -991,6 +989,7 @@ footer {
   padding-bottom: 44px;
   display: flex;
   justify-content: center;
+  text-align: center;
   position: relative;
 }
 footer .DarkOrange {
@@ -1001,10 +1000,10 @@ footer .DarkOrange {
 }
 
 /* ========================Media Query===================================== */
-@media only screen and (max-width: 1635px) {
-  /* .banner_sec .inner_banner h1 {
+@media only screen and (max-width: 1745px) {
+  .banner_sec .inner_banner h1 {
     font-size: 51px;
-  } */
+  }
 }
 @media only screen and (max-width: 1599px) {
   .banner_sec .inner_banner p {
@@ -1164,8 +1163,24 @@ footer .DarkOrange {
 @media only screen and (max-width: 840px) {
 }
 @media only screen and (max-width: 767px) {
+  .contact .DarkPink {
+    display: none;
+  }
 }
 @media only screen and (max-width: 640px) {
+  .banner_sec .inner_banner h1 {
+    font-size: 33px;
+  }
+  .banner_sec .inner_banner .banner_call_button .banner_call_text {
+    font-size: 17.323px;
+    padding: 0 22px;
+  }
+  .banner_sec .inner_banner .banner_call_button .banner_call_icon {
+    padding: 9px 9px;
+  }
+  .banner_sec .inner_banner {
+    margin: 56px 0;
+  }
 }
 @media only screen and (max-width: 575px) {
 }
@@ -1177,7 +1192,7 @@ footer .DarkOrange {
     margin-right: 8px;
   }
   .banner_sec .inner_banner h1 {
-    font-size: 28px;
+    font-size: 27px;
   }
   .banner_sec .inner_banner p {
     font-size: 11px;
@@ -1254,9 +1269,6 @@ footer .DarkOrange {
     padding-bottom: 4px;
   }
   .Mix {
-    display: none;
-  }
-  .contact .DarkPink {
     display: none;
   }
 }

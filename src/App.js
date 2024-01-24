@@ -97,9 +97,9 @@ const App = () => {
         <div className="BackBule">
           <BackBule />
         </div>
-        <div className="BackBule1">
+        {/* <div className="BackBule1">
           <BackBule />
-        </div>
+        </div> */}
         <div className="container">
           <div className="services_sec ">
             <div className="row justify-content-between">
@@ -144,10 +144,10 @@ const App = () => {
       {/* Offer Section */}
 
       <section className="offer">
-        <div className="BackGreen">
+       <div className="BackGreen">
           <BackGreen />
         </div>
-        <div className="Red">
+         {/* <div className="Red">
           <Red />
         </div>
         <div className="BackGreen1">
@@ -164,7 +164,7 @@ const App = () => {
         </div>
         <div className="Lblue">
           <Lblue />
-        </div>
+        </div> */}
         <div className="offer_headind">Services We’re Offering</div>
         <div className="container">
           <div className="row justify-content-around">
