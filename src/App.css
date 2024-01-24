@@ -725,8 +725,8 @@ a {
   left: 0;
 }
 .banner_sec .inner_banner {
-  margin-top: 14px;
-  margin-bottom: 295px;
+  margin: 90px 0;
+  /* margin-bottom: 50px; */
 }
 .banner_sec .inner_banner h1 {
   color: #fff;
@@ -1010,10 +1010,7 @@ footer .DarkOrange {
   .banner_sec .inner_banner p {
     font-size: 16px;
   }
-  .banner_sec .inner_banner {
-    margin-top: 1px;
-    margin-bottom: 295px;
-  }
+ 
   .BackYellow {
     top: -23%;
   }
