@@ -16,11 +16,11 @@ import CircleSvg from "./Image/CircleSvg";
 import BackBule from "./Image/BackBule";
 import BackYellow from "./Image/BackYellow";
 import BackGreen from "./Image/BackGreen";
-import Red from "./Image/Red";
-import Pink from "./Image/Pink";
-import LightBlue from "./Image/LightBlue";
-import Orange from "./Image/Orange";
-import Lblue from "./Image/Lblue";
+import cross from "./Image/cross.png";
+import menu from "./Image/menu-icon.png";
+// import LightBlue from "./Image/LightBlue";
+// import Orange from "./Image/Orange";
+// import Lblue from "./Image/Lblue";
 import Mix from "./Image/Mix";
 import DarkPink from "./Image/DarkPink";
 import DarkOrange from "./Image/DarkOrange";
@@ -32,23 +32,30 @@ const App = () => {
         <div className="header_top inner_data">
           <div className="container">
             <div className="logo_social">
-              <div><img src={logo} /></div>
-              <nav className="nav_sec">
-                <ul>
-                  <li className="active">
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                    <a href="installtion-videos.html">Services</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">About Us</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-              </nav>
+              <div>
+                <img src={logo} />
+              </div>
+              <div>
+                <nav className="nav_sec">
+                  <ul>
+                    <li className="active">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="installtion-videos.html">Services</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </nav>
+                <span class="toggle-menu">
+                  <img src={menu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -144,10 +151,10 @@ const App = () => {
       {/* Offer Section */}
 
       <section className="offer">
-       <div className="BackGreen">
+        <div className="BackGreen">
           <BackGreen />
         </div>
-         {/* <div className="Red">
+        {/* <div className="Red">
           <Red />
         </div>
         <div className="BackGreen1">
