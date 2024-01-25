@@ -895,7 +895,6 @@ span.toggle-menu {
   padding: 20px 20px;
 }
 .tab_box ul li {
-
   font-weight: 500;
   font-size: 15px;
   line-height: 52px;
@@ -939,7 +938,6 @@ span.toggle-menu {
 }
 
 .tab_content_box p {
-
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
@@ -947,7 +945,6 @@ span.toggle-menu {
 }
 
 .tab_content_box h3 {
- 
   font-weight: 700;
   font-size: 26px;
   line-height: 39px;
@@ -977,7 +974,6 @@ span.toggle-menu {
   height: 60px;
 }
 .list_of_product_box p {
-
   font-weight: 700;
   font-size: 15px;
   line-height: 22px;
@@ -1009,7 +1005,13 @@ span.toggle-menu {
 .services .services_sec {
   margin: 124px 0;
 }
-
+.services .services_sec h1 {
+  color: #f0e5ff;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 33px;
+}
 .services .services_sec h2 {
   color: #f0e5ff;
   font-family: Inter;
@@ -1153,6 +1155,7 @@ span.toggle-menu {
 .contact input:focus {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
+  border: 1px solid #f0e5ff;
 }
 .contact input {
   border-radius: 10px;
@@ -1174,11 +1177,7 @@ span.toggle-menu {
   font-weight: 200;
   border-radius: 10px;
   padding: 24px 0;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 109, 206, 0.5) 0%,
-    rgba(255, 109, 206, 0.5) 100%
-  );
+  background: #fd6f00;
   margin-top: 15px;
 }
 /* ====================footer========================== */
@@ -1301,9 +1300,16 @@ footer .DarkOrange {
   .banner_sec .inner_banner h1 {
     font-size: 40px;
   }
+  .services .services_sec h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
+  .contact {
+    padding-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .custom-flex-container {
@@ -1373,6 +1379,9 @@ footer .DarkOrange {
   }
 }
 @media only screen and (max-width: 840px) {
+  .contact {
+    padding-bottom: 0px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .contact .DarkPink {
@@ -1389,6 +1398,10 @@ footer .DarkOrange {
 @media only screen and (max-width: 640px) {
   .banner_sec .inner_banner h1 {
     font-size: 33px;
+  }
+  .services .services_sec h1 {
+    font-size: 33px;
+    margin-bottom: 15px;
   }
   .banner_sec .inner_banner .banner_call_button .banner_call_text {
     font-size: 17.323px;
@@ -1407,13 +1420,14 @@ footer .DarkOrange {
     font-size: 45px;
   }
   .tab_content_box h3 {
-
     font-size: 20px;
     line-height: 20px;
- 
-}
+  }
 }
 @media only screen and (max-width: 575px) {
+  .contact .contact_sec {
+    margin-bottom: 34px;
+}
 }
 
 @media only screen and (max-width: 420px) {

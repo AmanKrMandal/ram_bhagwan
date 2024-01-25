@@ -8,29 +8,6 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer_wrap">
-      <div className="tooter_top_area">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-5">
-              <div className="footer_top_left">
-                <h2>
-                  <span>Sign up For</span> Newsletter
-                </h2>
-                <p>New subscribers receive 10% off their first purchase</p>
-              </div>
-            </div>
-            <div className="col-md-7">
-              <div className="footer_top_right">
-                <div className="news_latter_wrap">
-                  <input type="text" placeholder="Your email..." />
-                  <input type="submit" value="subscribe" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="footer_middle_section">
         <div className="container">
           <div className="row">
@@ -137,36 +114,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="footer_bottom">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="copy_text">Copyright © 2023. All Right Reserved</div>
-            </div>
-            <div className="col-md-6">
-              <div className="footer_bottom_right">
-                <ul>
-                  <li>Tidio in other countries:</li>
-                  <li>
-                    <a href="/">TODIO International</a>
-                  </li>
-                  <li>
-                    <a href="/">Slovakia</a>
-                  </li>
-                  <li>
-                    <a href="/">Czech Republic</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="scroll_top_wrap" id="btn-back-to-top">
-        <i className="fa fa-chevron-up" aria-hidden="true"></i>
       </div>
     </div>
   );
